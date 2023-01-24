@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--This makes the stuff it presents all the data from the local variables -->
+<body onload="initialize();">
+    <h1>COIN COLLECTING BANK</h1>
+<!-- used div classes to make it more streamlined for css-->
+    <div class="info">
+        <p id="numOfPennies"> Pennies: </p>
+        <p id="numOfNickels"> Nickels: </p>
+        <p id="numOfDimes"> Dimes: </p>
+        <p id="numOfQuarters"> Quarters: </p>
+
+        <p id="penniesTotal"> Sum for Pennies:$ </p>
+        <p id="nickelsTotal"> Sum of Nickels:$ </p>
+        <p id="dimeTotal"> Sum of Dimes:$ </p>
+        <p id="quarterTotal"> Sum of Quarters:$ </p>
+
+        <p id="sumMoney"> Total Sum of all coins:$ </p>
+        <script src="script.js"></script>
+    </div>
+
+    <h2>Counter clicks </h2>
+<!--these buttoms referecenthe js which changes the vairbales values -->
+    <div class="div">
+        <button class="clicks" onclick="Penny();">Penny++</button>
+        <button class="clicks" onclick="Nickel();">Nickel++</button>
+        <button class="clicks" onclick="Dime();">Dime++</button>
+        <button class="clicks" onclick="Quarter();">Quarter++</button>
+        <button class="clicks" onclick="subPenny();">Penny--</button>
+        <button class="clicks" onclick="subNickel();">Nickel--</button>
+        <button class="clicks" onclick="subDime();">Dine--</button>
+        <button class="clicks" onclick="subQuarter();">Quarter--</button>
+
+    </div>
+
+    <footer>Made by Arif Mohammed</footer>
+</body>
+</html>

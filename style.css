@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+
+.div{
+    margin-left: 100%;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+footer{
+    border-right: 0ch;
+    color: lightcoral;
+
+
+}
+
+
+.clicks{
+    font-family:'Courier New', Courier, monospace;
+    background-color: lightcyan;
+    padding: 20px;
+    margin: 20px;
+    color:blueviolet;
+}
+
+.info{
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    background-color: darkblue;
+    text-align: left;
+    color: aliceblue;
+}
+
