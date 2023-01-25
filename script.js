@@ -96,7 +96,7 @@ function Quarter() {
 
 
 /// function for subtracting essnetially the opposite
-function subPenny() {
+function Pennyminus() {
     if(pennies > 0){
         pennies -= 1;
         penniesValue -= 0.01;
@@ -107,7 +107,7 @@ function subPenny() {
     adaptiveChange();
 }
 
-function subNickel() {
+function Nickelminus() {
     if(nickels > 0){
         nickels -= 1;
         nickelValue -= 0.05;
@@ -118,7 +118,7 @@ function subNickel() {
     adaptiveChange();
 }
 
-function subDime() {
+function Dimeminus() {
     if(dimes > 0){
         dimes -= 1;
         dimeValue -= 0.10;
@@ -129,7 +129,7 @@ function subDime() {
     adaptiveChange();
 }
 
-function subQuarter() {
+function Quarterminus() {
     if(quart > 0){
         quart += 1;
         quartersValue -= 0.25;
